@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+	<AddIn Type="Application">
+		<Name>MEP Quantity</Name>
+		<Assembly>MEPQuantity.dll</Assembly>
+		<FullClassName>MEPQuantity.App</FullClassName>
+		<ClientId>3bbab8cd-5eaa-46b5-94d3-4c9a5d8ddb62</ClientId>
+		<VendorId>Renzo Rios Rugel - Rivers Code</VendorId>
+		<VendorDescription>Lambda Ingenieria e Innovacion</VendorDescription>
+	</AddIn>
+</RevitAddIns>

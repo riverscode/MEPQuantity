@@ -8,7 +8,16 @@
 
 ## Introduction
 
-In this application we can see how we can quantify elements from a region created with generic model.
+Aplicativo que permite cuantificar elementos MEP incluido equipos, accesorios, tuberías, ductos, bandejas, etc. a partir de un Generic Model.
+
+Entrada/Input
+El usuario tiene un modelo MEP y desea cuantificar elementos a partir de una zona especifica, previamente el usuario debera crear un Generic Model que indentifique la zona donde se cuantificara los elementos.
+
+Proceso
+Al utilizar el aplicativo deberá debera cuantificar elementos MEP (equipos, accesorios, tuberías, ductos, bandejas, etc.) 
+
+Output/ Salida
+Generación de un reporte en Excel con los metrado de los elementos.
 
 ![MEP Quantity](https://user-images.githubusercontent.com/92652351/207517371-6baf6e67-82fe-48dc-88b8-b51c711f1662.png)
 
@@ -26,7 +35,8 @@ Standard Revit add-in installation, cf.
 - Click the menu entry under `External Tools` &rarr; `MEPQuantity`
 
 ## TODO
-
+- [ ] Loading para exportar la información
+- [ ] Mejorar la plantilla de Excel
 
 ## Author
 

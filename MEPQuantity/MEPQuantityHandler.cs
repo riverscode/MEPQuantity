@@ -15,17 +15,19 @@ namespace MEPQuantity
             BuiltInCategory category = (BuiltInCategory)el.Category.Id.IntegerValue;
 
             string elementCategory = el.Category.Name;
-            double _lengthQuantity = 1;
+            double quantity = 1;
 
             if (category == BuiltInCategory.OST_PipeCurves ||
                 category == BuiltInCategory.OST_DuctCurves ||
                 category == BuiltInCategory.OST_CableTray ||
                 category == BuiltInCategory.OST_Conduit)
             {
-                _lengthQuantity = el.get_Parameter(BuiltInParameter.CURVE_ELEM_LENGTH).AsDouble();
+                double _lengthQuantity = el.get_Parameter(BuiltInParameter.CURVE_ELEM_LENGTH).AsDouble();
+                quantity = Math.Round((_lengthQuantity * elementPercentage), 2);
             }
 
-            return new ElementExport(elementCategory, Math.Round((_lengthQuantity * elementPercentage), 2).ToString());
+
+            return new ElementExport(elementCategory, quantity.ToString());
         }
 
         public static void exportToExcel(Excel.Worksheet xlWorkSheet, ElementExport elementExport, int rowIndex)

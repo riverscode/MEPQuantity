@@ -23,7 +23,7 @@ Generación de un reporte en Excel con los metrado de los elementos.
 
 ## Blog
 
-You can check the blog on the Lambda engineering and innovation page. [Link](https://lambda.com.pe/blog/cuantificar-por-modelo-generico)
+You can check the blog on the Lambda engineering and innovation page. [Link](https://lambda.com.pe/blog)
 
 ## Installation
 
@@ -40,7 +40,7 @@ Standard Revit add-in installation, cf.
 
 ## Author
 
-Rivers code, [BIM developer](https://riverscode.vercel.app/), blogger on [Lambda Ingeniría e Innovacion](https://lambda.com.pe/blog) and [Youtuber](https://www.youtube.com/c/RiversCode)
+Rivers code, [BIM developer](https://riverscode.vercel.app/), blogger on [Lambda Ingeniría e Innovacion](https://lambda.com.pe/blog) and [Youtuber](https://www.youtube.com/c/@lambda_innovacion)
 
 ## License
 
